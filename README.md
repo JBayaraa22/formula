@@ -32,4 +32,4 @@ AngularJS  , Angular material ашигласан
 * NodeJS суулгана [NodeJS web](https://nodejs.org/en/) LTS (Long term support) version-г татаж суулгаарай. Recommended
 * Angular CLI суулгана ``` npm i @angular/cli ```
 * Git-с pull хийж аваад ```npm update``` гэж сангуудыг татна.
-* ажиллуулсаны дараа ``` ng serve ``` гэж серверээ асааж ашиглана.
+* Татсаны дараа ``` ng serve ``` гэж серверээ асааж ашиглана.
