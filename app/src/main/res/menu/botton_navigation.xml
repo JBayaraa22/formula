@@ -4,14 +4,14 @@
     <item
         android:id="@+id/nav_first"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="First"/>
+        android:title="Томъёо" />
     <item
         android:id="@+id/nav_second"
         android:icon="@drawable/ic_assignment_black_24dp"
-        android:title="Second"/>
+        android:title="Анхны тоо"/>
     <item
         android:id="@+id/nav_third"
         android:icon="@drawable/ic_report_black_24dp"
-        android:title="Third"/>
+        android:title="Холбоо барих"/>
 
 </menu>
