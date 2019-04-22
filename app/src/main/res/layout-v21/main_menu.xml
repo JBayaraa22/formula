@@ -294,8 +294,7 @@
                 android:paddingEnd="25dp"
                 android:paddingStart="25dp"
                 android:paddingTop="15dp"
-                android:text="@string/search"
-                tools:ignore="NewApi" />
+                android:text="@string/search" />
         </RelativeLayout>
 
     </LinearLayout>

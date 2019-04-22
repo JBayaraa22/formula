@@ -1,12 +1,10 @@
 package com.bayarjargal.me.formula;
 
-import android.app.Fragment;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         bottomNav.setOnNavigationItemSelectedListener(navListener);
 
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                new FirstFragment()).commit();
+                new MainMenuFragment()).commit();
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
@@ -30,13 +28,13 @@ public class MainActivity extends AppCompatActivity {
 
                     switch(item.getItemId()){
                         case R.id.nav_first:
-                            selectedFragment = new FirstFragment();
+                            selectedFragment = new MainMenuFragment();
                             break;
                         case R.id.nav_second:
-                            selectedFragment = new SecondFragment();
+                            selectedFragment = new UtilityFragment();
                             break;
                         case R.id.nav_third:
-                            selectedFragment = new ThirdFragment();
+                            selectedFragment = new AboutFragment();
                             break;
                     }
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,

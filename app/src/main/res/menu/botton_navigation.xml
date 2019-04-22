@@ -3,12 +3,12 @@
 
     <item
         android:id="@+id/nav_first"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/ic_maths_compass_tool"
         android:title="Томъёо" />
     <item
         android:id="@+id/nav_second"
-        android:icon="@drawable/ic_assignment_black_24dp"
-        android:title="Анхны тоо"/>
+        android:icon="@drawable/ic_calculator_maths_tool"
+        android:title="Анхны тоо" />
     <item
         android:id="@+id/nav_third"
         android:icon="@drawable/ic_report_black_24dp"

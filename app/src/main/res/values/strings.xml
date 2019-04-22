@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">formula</string>
+    <string name="constants">Тогтмолууд</string>
+    <string name="arithmetic">Арифметик</string>
+    <string name="algebra_analysis">Алгебр анализ</string>
+    <string name="todo">TODO</string>
+    <string name="trigonometer">Тригонометр</string>
+    <string name="geometer">Геометр</string>
+    <string name="analytic_geometer">Аналитик ееометр</string>
+    <string name="math_analysis">Математик анализ</string>
+    <string name="diff_calc">Дифференциал тооцоолол</string>
+    <string name="integral">Интеграл тоолол</string>
+    <string name="search">Хайх</string>
 </resources>
