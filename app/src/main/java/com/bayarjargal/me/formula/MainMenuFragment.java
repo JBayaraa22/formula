@@ -19,15 +19,15 @@ public class MainMenuFragment extends Fragment implements View.OnClickListener {
     private FragmentTransaction fragmentTransaction;
     private ImageView m1 , m2 , m3 , m4 , m5 , m6 , m7 ,m8 , m9;
     private static class Category{
-        final public static String CONSTANT                 = "F100";
-        final public static String ARITHMETIC               = "F101";
-        final public static String ALGEBRA_ANALYSIS         = "F102";
-        final public static String GEOMETER                 = "F103";
-        final public static String TRIGONOMETER             = "F104";
-        final public static String ANAYLYTIC_GEOMETER       = "F105";
-        final public static String MATHEMATIC_ANALYSIS      = "F106";
-        final public static String DIFFERENTIAL_CALCULATION = "F107";
-        final public static String INTEGRAL_CALCULATION     = "F108";
+        final public static String CONSTANT                 = "1";
+        final public static String ARITHMETIC               = "2";
+        final public static String ALGEBRA_ANALYSIS         = "3";
+        final public static String GEOMETER                 = "4";
+        final public static String TRIGONOMETER             = "5";
+        final public static String ANAYLYTIC_GEOMETER       = "6";
+        final public static String MATHEMATIC_ANALYSIS      = "7";
+        final public static String DIFFERENTIAL_CALCULATION = "8";
+        final public static String INTEGRAL_CALCULATION     = "9";
     }
     @Nullable
     @Override
